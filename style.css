@@ -1,0 +1,153 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #000000;
+  font-family: "Lucida Console", monospace;
+  color: #ffffff;
+}
+
+.menu{
+  background-color: #191919;
+  font-size: 2rem;
+  margin: 10vmin;
+  padding: 5vmin;
+}
+
+a:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #dcd2e7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #dcd2e7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #a88ec2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.description{
+  display: flex;
+  font-size: 10rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lange_photos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo_duo_impounded img{
+  width: 100%;
+}
+
+.photo_duo img{
+  width: 100%;
+}
+
+.photo_duo_impounded{
+  flex-direction: column;
+}
+
+.photo_duo{
+  flex-direction: column;
+}
+
+.lange_description{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ffffff;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.photo_single_1 img{
+  width: 100%;
+}
+.photo_single_2 img{
+  width: 100%;
+}
+.photo_single_3 img{
+  width: 100%;
+}
+.photo_single_4 img{
+  width: 100%;
+}
+
+.ansel_photos{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ansel_description{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ffffff;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.youtube{
+  display: flex;
+  justify-content: center;
+  padding: 3vmin;
+}
+
+.originalpost{
+  display: flex;
+}
+
+.post{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+.description_post{
+  margin: 0;
+  width: 20%;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.parent_pasttweet{
+  display: flex;
+}
+
+.pasttweet{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+
+.pasttweet_descrip{
+  margin: 0;
+  width: 20%;
+  color: #ffffff;
+  font-size: 3rem;
+  }
